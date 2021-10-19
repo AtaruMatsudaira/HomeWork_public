@@ -10,7 +10,9 @@ import org.jsoup.nodes.*;
 
 public class YahooShoppingShippingExtractorIntValue {
     public static void main(String[] args) {
-        System.out.println("うんこ");
+        for(var url : args){
+            new WebPage(url);
+        }    
     }
 }
 
